@@ -26,6 +26,10 @@ class Landing extends Component {
                                     <i className="fa fa-github-square"  aria-hidden='true' />
                                 </a>
 
+{/* Facebook */}
+<a href="https://www.facebook.com/tanya.lytovchenko" rel="noopener noreferrer" target="_blank">
+                                    <i className="fa fa-facebook-square"  aria-hidden='true' />
+                                </a>
 
                             </div>
                         </div>
