@@ -20,9 +20,13 @@ div.project-grid {
   display: flex;
 }
 
+.resume-right-col {
+  background: #27221F;
+  color: white;
+}
+
 .contact-body {
   margin: auto;
-  background: grey;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -33,18 +37,36 @@ div.project-grid {
 .contact-grid {
   text-align: center;
   justify-content: center;
-  width: 80%;
+  width: 100%;
   height: 550px;
   background: white;
   color: #000;
-  border: 2px solid  #5D26C1;
   margin-bottom: 20px;
 }
 
+.contact-grid h2 {
+  font-family: 'Oxygen', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: #000 5px dotted;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 50px;
+  padding-right: 5rem;
+}
 
 .avatar-img {
   height: 200px;
-  padding-top: 5em;
+  padding-top: 1em;
 }
 
 .banner-text {

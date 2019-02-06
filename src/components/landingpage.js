@@ -9,26 +9,26 @@ class Landing extends Component {
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img src={cat}
-                        alt="avatar" className='avatar-img' />
+                            alt="avatar" className='avatar-img' />
                         <div className='banner-text'>
                             <h1>Full Stack Developer</h1>
-                            <hr/>
+                            <hr />
                             <p>HTML/CSS | JavaScript | React | Bootstrap | NodeJS | Java | Python | Django </p>
                             <div className='social-links'>
 
                                 {/* LinkedIn */}
-                                <a href="https://google.com" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-linkedin-square"  aria-hidden='true' />
+                                <a href="https://www.linkedin.com/in/tanyalytovchenko/" rel="noopener noreferrer" target="_blank">
+                                    <i className="fa fa-linkedin-square" aria-hidden='true' />
                                 </a>
 
                                 {/* GitHub */}
                                 <a href="https://github.com/Tanya-L" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-github-square"  aria-hidden='true' />
+                                    <i className="fa fa-github-square" aria-hidden='true' />
                                 </a>
 
-{/* Facebook */}
-<a href="https://www.facebook.com/tanya.lytovchenko" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-facebook-square"  aria-hidden='true' />
+                                {/* Facebook */}
+                                <a href="https://www.facebook.com/tanya.lytovchenko" rel="noopener noreferrer" target="_blank">
+                                    <i className="fa fa-facebook-square" aria-hidden='true' />
                                 </a>
 
                             </div>

@@ -18,14 +18,14 @@ class App extends Component {
                 <Link to="contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        {/* <Drawer title="Title">
             <Navigation>
             <Link to="/resume">Resume</Link>
                 <Link to="aboutme">About Me</Link>
                 <Link to="project">Projects</Link>
                 <Link to="contact">Contact</Link>
             </Navigation>
-        </Drawer>
+        </Drawer> */}
         <Content>
             <div className="page-content" />
             <Main />
